@@ -15,4 +15,4 @@ Ruby must be installed on your system, as well as Jekyll: `gem install jekyll`
 
 Running a Local Instance
 ------------------------
-Simply run `jekyll serve --watch` and visit http://localhost
+Simply run `jekyll serve --watch` and visit http://localhost:4000/

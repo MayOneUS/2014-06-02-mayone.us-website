@@ -11,7 +11,7 @@ I'll probably set up an official branch we can use as a staging area.
 
 Local Testing
 =============
-Ruby must be installed on your system, as well as Jekyll: `gem install jekyll`
+Ruby must be installed on your system, as well as the version of Jekyll used by GitHub Pages: `gem install github-pages`
 
 Running a Local Instance
 ------------------------

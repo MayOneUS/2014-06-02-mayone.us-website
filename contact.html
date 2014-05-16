@@ -38,9 +38,8 @@ title: Contact
         $scope.ctrl.spinning = true;
         var target = document.getElementById('spinButton');
         var spinner = new Spinner(spin_opts).spin(target);
-        console.log(spinner);
         $scope.ctrl.error = false;
-        $http.post('//pledge.mayone.us/contact.us', {
+        $http.post('//pledge.mayone.us/contact.do', {
           name: $scope.ctrl.name,
           email: $scope.ctrl.email,
           subject: $scope.ctrl.subject,

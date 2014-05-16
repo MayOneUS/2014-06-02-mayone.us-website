@@ -1,5 +1,6 @@
 <head>
   <meta charset="UTF-8" />
+  <meta name="globalsign-domain-verification" content="ZtXG9NF2TbsIm_KoBz3mfbhQeK_chhfE4-JRoOjIMr" />
   <meta name="viewport" content="width=device-width" />
   <title>{{ page.title }}{% unless page.omit_title_suffix %} | MayOne.US{% endunless %}</title>
   <link rel="profile"
@@ -179,8 +180,70 @@
     .donation-progress {
       background-color: #009933;
     }
-  </style>
-  <style>
+
+    .ribbon-yellow {
+      position:absolute;
+      z-index:5;
+      background-color: yellow;
+      color: black;
+      padding:6px 30px;
+      font-family: "Oswald", arial, sans-serif;
+      box-shadow: 5px 5px 3px rgba(136, 136, 136, 0.5);
+      border-radius:3px;
+      display: inline-block;
+      -webkit-border-top-right-radius: 50px;
+      -webkit-border-bottom-right-radius: 50px;
+      -moz-border-radius-topright: 50px;
+      -moz-border-radius-bottomright: 50px;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+
+    @media all and (min-width: 1000px) {
+      #top-ribbon {
+        top:10px;
+        max-width:80%;
+        font-size: 28px;
+      }
+    }
+
+    @media all and (max-width: 999px) and (min-width: 800px) {
+      #top-ribbon {
+        top:8px;
+        max-width:80%;
+        font-size: 20px;
+      }
+    }
+
+    @media all and (max-width: 799px) and (min-width: 600px) {
+      #top-ribbon {
+        top:6px;
+        font-size: 15px;
+      }
+    }
+
+    @media all and (max-width: 599px) {
+      #top-ribbon {
+        top:2px;
+        font-size: 12px;
+        padding:4px 12px;
+      }
+    }
+
+    .sign-up {
+      padding:10px;
+      border:1px solid gray;
+      margin-left:auto;
+      margin-right:auto;
+      color:white;
+      font-size:20px;
+      display: inline-block;
+    }
+
+    .sign-up:hover{
+      background-color:#333333;
+    }
+
     #widget_campaignify_hero_contribute-2 {
       background-color: #0a0a0a;
       color: #fff9fb;

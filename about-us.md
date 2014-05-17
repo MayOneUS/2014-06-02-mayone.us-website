@@ -28,17 +28,37 @@ University of Chicago. He clerked for Judge Richard Posner on the 7th Circuit
 Court of Appeals and Justice Antonin Scalia on the United States Supreme
 Court.
 
-<div style="display: block;">
-  <h2>Khalil Byrd — Board Member</h2>
+## Khalil Byrd — Board Member
 
-  <p><img class="alignleft size-full" src="/wp-content/uploads/2014/05/byrd.jpg" alt="byrd" width="150" height="150"></a>Kahlil Byrd is a political entrepreneur and an expert at building and managing large, disruptive, technology-based advocacy and political organizations. For the past decade, Byrd has focused on building long-term strategy, securing substantial investments and achieving reform at state and national levels. Currently, he serves as the chief investment officer of Fund for the Republic, a nonpartisan, nonprofit grantmaking fund committed to reducing the influence of money in American politics and policymaking.</P>
+<img class="alignleft size-full" src="/wp-content/uploads/2014/05/byrd.jpg" alt="byrd" width="150" height="150">
 
-<p>Most recently, Byrd was president of StudentsFirst, a multi-million dollar national reform effort focused on changing the nation’s legislative and policy landscape for public education. Working with founder Michelle Rhee and the board, Byrd was responsible for StudentsFirst’s long-term strategy, operations, budget, and effort to develop an optimal culture focused on growth.</P>
+Kahlil Byrd is a political entrepreneur and an expert at building and managing
+large, disruptive, technology-based advocacy and political organizations. For
+the past decade, Byrd has focused on building long-term strategy, securing
+substantial investments and achieving reform at state and national
+levels. Currently, he serves as the chief investment officer of Fund for the
+Republic, a nonpartisan, nonprofit grantmaking fund committed to reducing the
+influence of money in American politics and policymaking.
 
-<p>Prior to StudentsFirst, Byrd was chief executive officer of Americans Elect, a national start-up with the twofold mission of re-imagining, through technology, the U.S. presidential primary system and placing a bi-partisan presidential ticket on all 50 state ballots. Byrd and his team raised more than $40 million, oversaw over 150 paid staff, 5,000 contractors, and 3,000 volunteers nationwide. AmericansElect.org is the winner of the 2012 People’s Choice Award at South by Southwest, one of the country’s largest interactive technology conferences; the Campaigns & Elections 2012 CampaignTech Innovator Award; and two 2012 CLIO Awards for content and interactive excellence.</P>
+Most recently, Byrd was president of StudentsFirst, a multi-million dollar
+national reform effort focused on changing the nation’s legislative and policy
+landscape for public education. Working with founder Michelle Rhee and the
+board, Byrd was responsible for StudentsFirst’s long-term strategy, operations,
+budget, and effort to develop an optimal culture focused on growth.
 
-<p>Byrd was a Term Member of the Council on Foreign Relations and in 2006-2007 served as an International Affairs Fellow focused on international media.  He is a graduate of Morehouse College and Harvard’s Kennedy School.</p>
-</div>
+Prior to StudentsFirst, Byrd was chief executive officer of Americans Elect, a
+national start-up with the twofold mission of re-imagining, through technology,
+the U.S. presidential primary system and placing a bi-partisan presidential
+ticket on all 50 state ballots. Byrd and his team raised more than $40 million,
+oversaw over 150 paid staff, 5,000 contractors, and 3,000 volunteers
+nationwide. AmericansElect.org is the winner of the 2012 People’s Choice Award
+at South by Southwest, one of the country’s largest interactive technology
+conferences; the Campaigns & Elections 2012 CampaignTech Innovator Award; and
+two 2012 CLIO Awards for content and interactive excellence.
+
+Byrd was a Term Member of the Council on Foreign Relations and in 2006-2007
+served as an International Affairs Fellow focused on international media.  He is
+a graduate of Morehouse College and Harvard’s Kennedy School.
 
 ## Jim Greer — Board Member
 
@@ -114,6 +134,8 @@ University, New England College and the DeCordova Museum and Sculpture Park.
 She is a graduate of Connecticut College, Boston University School of Law and
 the Kennedy School at Harvard University.
 
+---
+
 ## Aaron Lifshin — CTO
 
 <img class="alignleft size-thumbnail wp-image-10183" src="https://mayone.us/wp-content/uploads/2014/05/aaron-150x150.jpg" alt="aaron" width="150" height="150">
@@ -123,11 +145,15 @@ Aaron Lifshin is the CEO of inMoment Software, makers of
 [Whysaurus](https://www.whysaurus.com/). He has been working to get money out
 of politics since 2011.
 
-<div style="display: block;">
-  <h2>Szelena Gray - Advisor</h2>
+## Szelena Gray - Advisor
 
-  <p><img class="alignleft size-thumbnail wp-image-10183" src="https://mayone.us/wp-content/uploads/2014/05/sgray.jpg" alt="Szelena Gray" width="150" height="150">Szelena Gray has spent the last few years in the vanguard of the campaign finance reform movement with projects like Rootstrikers, The New Hampshire Rebellion, and now MayOne.US. Grey received her MTS from Harvard Divinity School in 2009 and completed her BA in religious and women's studies at the University of Florida.</p>
-</div>
+<img class="alignleft size-thumbnail wp-image-10183" src="https://mayone.us/wp-content/uploads/2014/05/sgray.jpg" alt="Szelena Gray" width="150" height="150">
+
+Szelena Gray has spent the last few years in the vanguard of the campaign
+finance reform movement with projects like Rootstrikers, The New Hampshire
+Rebellion, and now MayOne.US. Grey received her MTS from Harvard Divinity School
+in 2009 and completed her BA in religious and women's studies at the University
+of Florida.
 
 ## Brian Boyko — Deputy CTO
 

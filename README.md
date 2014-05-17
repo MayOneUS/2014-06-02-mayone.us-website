@@ -9,7 +9,9 @@ mayoneus.github.io with a pull request. That way the staging branch is never
 missing any commits.
 
 ### For simple content changes
-1. 
+1. Open the file you want to edit in the github interface.
+2. Make your changes.
+3. At the bottom of the page, describe your change (or don't if it's trivial), and click "Commit changes".
 
 Local Testing
 =============

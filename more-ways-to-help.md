@@ -8,9 +8,6 @@ blockquote {
   margin-left: 30px;
   margin-right: 0;
 }
-.entry-content li > p {
-  font-size: 16px;
-}
 </style>
 
 ## I’ve pledged, but now what?

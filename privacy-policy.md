@@ -5,7 +5,6 @@ title: Privacy Policy
 
 <style>
 .entry-content { padding-top: 50px; }
-.entry-content li > p { font-size: 16px; }
 </style>
 
 The Mayday PAC values your privacy. You join our movement for a specific

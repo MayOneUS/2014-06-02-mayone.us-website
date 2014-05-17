@@ -3,10 +3,15 @@
 ## If you're on mayoneus-testing.github.io, read on.
 
 mayoneus.github.io is the live website. This fork is a staging area available via
-[mayoneus-testing.github.io](mayoneus-testing.github.io). Changes should be 
-committed here first, checked to make sure they're good, and then merged into 
+[mayoneus-testing.github.io](http://mayoneus-testing.github.io). Changes should be 
+committed here first, checked to make sure they're good at [http://mayoneus-testing.github.io/](http://mayoneus-testing.github.io/), and then merged into 
 mayoneus.github.io with a pull request. That way the staging branch is never 
 missing any commits.
+
+### For simple content changes
+1. Open the file you want to edit in the github interface.
+2. Make your changes.
+3. At the bottom of the page, describe your change (or don't if it's trivial), and click "Commit changes".
 
 Local Testing
 =============

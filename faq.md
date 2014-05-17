@@ -4,25 +4,10 @@ title: Frequently Asked Questions
 ---
 
 # Contents
-- [What's the plan here?](#whats-the-plan-here)
-- [What do you mean by "kick-start"?](#what-do-you-mean-by-kick-start)
-- [What happens if we don't meet our goal?](#what-happens-if-we-dont-meet-our-goal)
-- [What kind of "PAC" is the Mayday PAC?](#what-kind-of-pac-is-the-mayday-pac)
-- [So you want to use big money to fight big money?](#so-you-want-to-use-big-money-to-fight-big-money)
-- [What will you spend the money on?](#what-will-you-spend-the-money-on)
-- [Will the contributors to the Mayday PAC be listed?](#will-the-contributors-to-the-mayday-pac-be-listed)
-- [What does "fundamental reform" mean?](#what-does-fundamental-reform-mean-what-specific-proposals-do-you-support)
-- [What about constitutional change?](#the-reforms-at-reformto-are-just-statutory-what-about-constitutional-change)
-- [Is campaign reform the only "screen" that will be used to decide which candidate(s) to support?](#is-campaign-reform-the-only-screen-that-will-be-used-to-decide-which-candidates-to-support)
-- [How will we keep candidates independently supported by Mayday PAC honest?](#isnt-it-possible-that-otherwise-awful-candidates-could-say-they-will-support-campaign-reform-and-then-not-actually-do-so-once-elected--how-can-you-deal-with-this)
-- [Which candidates are you planning to support?](#which-candidates-are-you-planning-to-support-both-democrats-and-republicans-are-recognized-on-your-web-page-but-there-is-a-huge-difference-in-philosophies-about-fair-elections-between-the-two-major-parties)
-- [Why do you not have an “Independent/3rd Party” option?](#the-options-of-whatever-helps-republicans-only-and-democrats-only-do-not-leave-room-for-an-independents3rd-party-option-why-have-you-chosen-to-exclude-independent-candidates)
-- [I'd rather not pledge --- I'd rather donate directly.](#id-rather-not-pledge-----id-rather-donate-directly)
-- [Can I send a check instead of paying over the Internet?](#is-there-a-physical-mailing-address-that-i-can-send-a-check-to--i-dont-give-money-over-the-internet)
-- [Is it possible to accept Cryptocurrency (e.g. Bitcoin) contributions?](#is-it-possible-to-accept-cryptocurrency-eg-bitcoin-contributions)
-- [I pledged, but the progress bar on the homepage didn't change. Why is that?](#i-pledged-but-the-progress-bar-on-the-homepage-didnt-change-why-is-that)
-- [Are you sure you mean "founders" and not "flounders?"](#are-you-sure-you-mean-founders-and-not-flounders)
-- [What if my question isn't answered here?](#what-if-my-question-isnt-answered-here)
+{:.no_toc}
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
 
 ---
 

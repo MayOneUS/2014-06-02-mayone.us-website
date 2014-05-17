@@ -2,4 +2,121 @@
 layout: two_column
 title: Contact
 ---
-This needs to be reworked.
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+<script src="//fgnass.github.io/spin.js/spin.min.js"></script>
+<script>
+   angular.module('contactApp',[]).controller('contactController',
+                   ['$scope', '$http', function($scope, $http) {
+    $scope.ctrl = {
+      spinning: false,
+      submitting : false,
+      submitted: false,
+      error : false,
+      name : '',
+      email : '',
+      subject : '',
+      body : '',
+      submit : function() {
+        var spin_opts = {
+              lines: 13,
+              length: 10, // The length of each line
+              width: 5, // The line thickness
+              radius: 15, // The radius of the inner circle
+              corners: 1, // Corner roundness (0..1)
+              rotate: 0, // The rotation offset
+              direction: 1, // 1: clockwise, -1: counterclockwise
+              color: '#2b669a', // #rgb or #rrggbb or array of colors
+              speed: 1, // Rounds per second
+              trail: 60, // Afterglow percentage
+              shadow: false, // Whether to render a shadow
+              hwaccel: false, // Whether to use hardware acceleration
+              className: 'spinner', // The CSS class to assign to the spinner
+              zIndex: 2e9, // The z-index (defaults to 2000000000)
+              top: '50%', // Top position relative to parent
+              left: '50%' // Left position relative to parent
+        };
+        $scope.ctrl.spinning = true;
+        var target = document.getElementById('spinButton');
+        var spinner = new Spinner(spin_opts).spin(target);
+        $scope.ctrl.error = false;
+        $http.post('//pledge.mayone.us/contact.do', {
+          name: $scope.ctrl.name,
+          email: $scope.ctrl.email,
+          subject: $scope.ctrl.subject,
+          body: $scope.ctrl.body
+        }).success(function(data, status) {
+          spinner.stop();
+          $scope.ctrl.submitted = true;
+          $scope.ctrl.spinning = false;
+        }).error(function() {
+          spinner.stop();
+          $scope.ctrl.spinning = false;
+          $scope.ctrl.error = true;
+          document.getElementById('error').innerHTML = 'Oops, something went wrong. Try again in a few minutes';
+        });
+      },
+    };
+  }]);
+
+</script>
+<div id="content" class="row" ng-app="contactApp">
+  <div class="col-md-8">
+    <div class="row" ng-controller="contactController">
+      <form ng-submit="ctrl.submit()" ng-show="! ctrl.submitted">
+
+        <div class="row col-md-12">
+          <label>Name (required)</label>
+          <div class="input-group input-group-lg">
+            <input type="text" required ng-model="ctrl.name" class="form-control">
+          </div>
+        </div>
+
+        <div class="row col-md-12">
+          <label>Email (required)</label>
+          <div class="input-group input-group-lg">
+            <input type="email" required ng-model="ctrl.email" class="form-control">
+          </div>
+        </div>
+
+        <div class="row col-md-12">
+          <label>Subject</label>
+          <div class="input-group input-group-lg">
+            <input type="text" required ng-model="ctrl.subject" class="form-control">
+          </div>
+        </div>
+
+        <div class="row col-md-12">
+          <label>Message</label>
+          <div class="input-group input-group-lg">
+            <textarea rows="10" ng-model="ctrl.body" class="col-md-12"></textarea>
+          </div>
+        </div>
+
+        <div ng-show="! ctrl.spinning" class="row">
+          <div class="col-md-12">
+            <span class="input-group-btn">
+              <button id="submitButton" type="submit" class="btn btn-primary">Send</button>
+            </span>
+          </div>
+        </div>
+
+        <div ng-show="ctrl.spinning" class="row">
+          <div id="spinButton" class="spacing" style="position:relative;"></div>
+        </div>
+
+        <div ng-show="ctrl.error" class="edd_errors row">
+          <p id="error"></p>
+        </div>
+
+      </form>
+
+      <div ng-show="ctrl.submitted" class="row">
+        <div class="col-md-12">
+          <p>Thank you for your message.  We will respond as soon as we can.</p>
+          <p>You are also welcome to explore <a href="//mayone.us/connect">our other ways to connect</a>.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1109,6 +1109,10 @@ ul.nav-menu-primary li:hover > ul,
 	line-height: 26px;
 }
 
+.entry-content li > p {
+	font-size: 16px;
+}
+
 .entry-content p:last-child,
 .entry-summary p:last-child {
 	margin-bottom: 0;

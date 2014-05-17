@@ -8,6 +8,9 @@ committed here first, checked to make sure they're good at [http://mayoneus-test
 mayoneus.github.io with a pull request. That way the staging branch is never 
 missing any commits.
 
+### For simple content changes
+1. 
+
 Local Testing
 =============
 If you're making a trickier change, you may want to run jekyll locally so you 

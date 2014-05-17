@@ -2,7 +2,6 @@
 layout: two_column
 title: Connect
 ---
-{% capture connect %}
 ## We invite you to join our community:
 
 * Join our [Facebook Group](//www.facebook.com/groups/282646648577039/)
@@ -12,6 +11,3 @@ title: Connect
 * [Volunteer to help!](../more-ways-to-help/#volunteer_form)
 * If you have a technical bent, you can look at our [developer wiki](//github.com/MayOneUS/wiki/wiki)
 * [Email us](../contact)
-{% endcapture %}
-
-{{connect | markdownify }}

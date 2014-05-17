@@ -20,7 +20,7 @@ missing any commits.
 9. Give it a title (doesn't really matter what it is), and click "Send Pull Request".
 10. If you have direct commit access to the repo, you'll now be able to "Merge" the pull request (another green button). Click it.
 11. Click "Confirm"
-12. Check [mayone.us](http://mayone.us). Your changes should be live almost instantly.
+12. Check [mayone.us](http://mayone.us). Your changes should be live almost instantly (but in some cases may take up to a few minutes).
 
 ### Local Testing
 

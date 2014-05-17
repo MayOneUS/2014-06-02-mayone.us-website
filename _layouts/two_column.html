@@ -8,9 +8,11 @@ layout: default
   <div class="container">
     <div id="primary" class="content-area">
       <div id="content" class="site-content" role="main">
-        {{ content }}
-        <div id="comments" class="comments-area">
-        </div>
+        <article class="page type-page status-publish hentry">
+          <div class="entry-content">
+            {{ content }}
+          </div>
+        </article>
       </div>
     </div>
     {% include sidebar.html %}

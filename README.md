@@ -3,7 +3,7 @@
 ## If you're on mayoneus-testing.github.io, read on.
 
 mayoneus.github.io is the live website. This fork is a staging area available via
-[mayoneus-testing.github.io](mayoneus-testing.github.io). Changes should be 
+[mayoneus-testing.github.io](http://mayoneus-testing.github.io). Changes should be 
 committed here first, checked to make sure they're good, and then merged into 
 mayoneus.github.io with a pull request. That way the staging branch is never 
 missing any commits.

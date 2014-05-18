@@ -28,7 +28,7 @@ University of Chicago. He clerked for Judge Richard Posner on the 7th Circuit
 Court of Appeals and Justice Antonin Scalia on the United States Supreme
 Court.
 
-## Khalil Byrd — Board Member
+## Kahlil Byrd — Board Member
 
 <img class="alignleft size-full" src="/wp-content/uploads/2014/05/byrd.jpg" alt="byrd" width="150" height="150">
 

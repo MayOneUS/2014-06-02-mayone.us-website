@@ -14,13 +14,18 @@
                 </h2>
               </div>
             </div>
-
-            {{ribbon}}
-
+            {% if show_ribbon %}
+            <div class="ribbon-yellow" id="top-ribbon">
+              {{ribbon}}
+            </div>
+            {% endif %}
             <div class="campaign-hero-donate-options animated fadeInDown">
               <div id="super-cool-progress-bar" class="donation-progress-bar">
                 <span class="donation-progress-percent" id="super-cool-progress-bar-percent">Loading...</span>
-                <span class="donation-progress-funded"  id="super-cool-progress-bar-funded"></span>
+                <span class="donation-progress-funded">
+                  <span id="super-cool-progress-bar-funded"></span>
+                  <span class="hide-mobile">Raised</span>
+                </span>
                 <span class="donation-progress-togo"    id="super-cool-progress-bar-togo"></span>
                 <div class="donation-progress" style="width: 0%" id="super-cool-progress-bar-bar"></div>
               </div>
@@ -32,43 +37,47 @@
                 <span class="donation-share-text">Spread the Word:</span>
                 <span class="donation-share-buttons">
                   <a id="twitter_link" href="#" target="_blank" onclick="javascript:window.open(twitter_link_url,'',
-'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;"><i
-class="icon-twitter"></i></a><a
-href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mayone.us%2F" target="_blank" onclick="javascript:window.open('http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mayone.us%2F','',
-'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;"><i
-class="icon-facebook"></i></a><a id="gplus_link" href="#" target="_blank" onclick="javascript:window.open(gplus_link_url,'',
-'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;"><i
-class="icon-gplus"></i></a></span></div></div><div
-class="campaign-hero-slider">
-
-
-<ul class="slides">
-  <li class="campaign-hero-slider-item">
-    <div class="campaign-hero-slider-info"></div>
-    <img src="/wp-content/uploads/2014/04/05-midwest.jpg" />
-  </li>
-  <li class="campaign-hero-slider-item">
-    <div class="campaign-hero-slider-info"></div>
-    <img src="/wp-content/uploads/2014/04/02-decay1.jpg" />
-  </li>
-  <li class="campaign-hero-slider-item">
-    <div class="campaign-hero-slider-info"></div>
-    <img src="/wp-content/uploads/2014/04/06-cement.jpg" />
-  </li>
-  <li class="campaign-hero-slider-item">
-    <div class="campaign-hero-slider-info"></div>
-    <img src="/wp-content/uploads/2014/04/08-pollution.jpg" />
-  </li>
-  <li class="campaign-hero-slider-item">
-    <div class="campaign-hero-slider-info"></div>
-    <img src="/wp-content/uploads/2014/04/12-bridge.jpg" />
-  </li>
-</ul>
-
-</div><div> </section>
-        <section id="text-2" class="padding_1px campaign-widget widget_text arrowed">
-          <CENTER>{{special_message}}</CENTER>
+                                                                         'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;">
+                    <i class="icon-twitter"></i>
+                  </a>
+                  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mayone.us%2F" target="_blank" onclick="javascript:window.open('http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.mayone.us%2F','',
+                                                                                                                        'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;">
+                    <i class="icon-facebook"></i>
+                  </a>
+                  <a id="gplus_link" href="#" target="_blank" onclick="javascript:window.open(gplus_link_url,'',
+                                                                       'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;">
+                    <i class="icon-gplus"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div class="campaign-hero-slider">
+              <ul class="slides">
+                {% for photo in page.slide_photos %}
+                <li class="campaign-hero-slider-item">
+                  <div class="campaign-hero-slider-info"></div>
+                  <img src="{{photo}}" />
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div>
         </section>
+
+        <section id="text-2" class="padding_1px campaign-widget widget_text arrowed">
+          <CENTER>
+            <div>
+              <a href="/sign-up-to-our-mailing-list/" target="_blank" style="color:white;">
+                <div class="sign-up">Sign up to our mailing list</div>
+              </a>
+              <a href="https://docs.google.com/forms/d/1LECXA6mNtMBbXe310GMob8whZ2ZkAsGePAQhTdASkFs/viewform"
+                 target="_blank" style="color:white;">
+                <div class="sign-up">Sign up to volunteer</div>
+              </a>
+            </div>
+          </CENTER>
+        </section>
+
         <section id="widget_campaignify_campaign_video-2"
                  class="not_on_direct_contributions campaign-widget widget_campaignify_campaign_video arrowed">
           <div class="container">
@@ -79,87 +88,78 @@ class="campaign-hero-slider">
         </section>
 
         <section id="text-3" class="campaign-widget widget_text arrowed">
-          <div
-class="textwidget"><div
-class="donation-donate"> <a
-href="//pledge.mayone.us/pledge" class="button button-primary">Pledge Now</a></div></div> </section><section
-id="text-4" class="campaign-widget widget_text arrowed">
+          <div class="textwidget">
+            {% include pledge_button.html %}
+          </div>
+        </section>
 
+        <section id="text-4" class="campaign-widget widget_text arrowed">
+          <h3 class="campaign-widget-title">the Idea</h3><div class="textwidget">
+            <div class="frontpage_text">
+              {{the_idea_text | markdownify}}
+            </div>
+            {% include pledge_button.html %}
+          </div>
+        </section>
 
-<h3 class="campaign-widget-title">the Idea</h3><div class="textwidget">
-  <div class="frontpage_text">
-    {{the_idea_text | markdownify}}
+        <section id="text-5" class="campaign-widget widget_text arrowed">
+          <h3 class="campaign-widget-title">to &#8220;kickstart&#8221;</h3>
+          <div class="textwidget">
+            <div class="frontpage_text">
+              {{to_kickstart_text | markdownify}}
+            </div>
+            {% include pledge_button.html %}
+          </div>
+        </section>
+
+        <section id="text-6" class="campaign-widget widget_text arrowed">
+          <h3 class="campaign-widget-title">2014</h3>
+          <div class="textwidget">
+            <div class="frontpage_text">
+              {{y2014_text | markdownify}}
+            </div>
+            {% include pledge_button.html %}
+          </div>
+        </section>
+
+        <section id="text-7" class="campaign-widget widget_text arrowed">
+          <h3 class="campaign-widget-title">2016</h3>
+          <div class="textwidget">
+            <div class="frontpage_text">
+              {{y2016_text | markdownify}}
+            </div>
+          </div>
+        </section>
+
+        <section id="text-8" class="campaign-widget widget_text arrowed">
+          <h3 class="campaign-widget-title">MAYDAY.</h3>
+          <div class="textwidget">
+            <div class="frontpage_text"
+                 style="font-size:200%; text-align:center; color:#FFFFFF;">
+              {{mayday_text | markdownify}}
+            </div>
+            {% include pledge_button.html %}
+          </div>
+        </section>
+        </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-<div
-class="donation-donate"> <a
-href="//pledge.mayone.us/pledge" class="button button-primary">Pledge Now</a></div></div> </section><section
-id="text-5" class="campaign-widget widget_text arrowed"><h3 class="campaign-widget-title">to &#8220;kickstart&#8221;</h3><div
-class="textwidget"><div
-class="frontpage_text"><P>This Citizens' SuperPAC will be funded through a series of  contingent pledges:</P><div
-style="padding-left:25px;"><P>We will set funding goals.</P><P><STRONG>We will only collect if we hit our goals.</STRONG></P></div><P>The idea is simple: Unless there’s enough to make a difference, you don’t pay.</P><div
-class="donation-donate"> <a
-href="//pledge.mayone.us/pledge" class="button button-primary">Pledge Now</a></div></div> </section><section
-id="text-6" class="campaign-widget widget_text arrowed"><h3 class="campaign-widget-title">2014</h3><div
-class="textwidget"><div
-class="frontpage_text"><P>In 2014, we want to make fundamental reform the issue in <strong>5 congressional races</strong>.</P><P>From that, we'll have a better sense of what victory in 2016 will take. And we'll put Congress on notice that in 2016, we'll be back.</P><P>So for 2014, we have two fundraising targets:</P><div
-style="padding-left:25px;"><P><STRONG><EM>The first is $1 million by the end of May. If we meet that goal, that $1 million will be matched, and we'll move to the second target.</P><P>That second target is $5 million by the end of June. If we meet that goal, that $5 million will also be matched, and our fundraising for 2014 will end.</P></EM></STRONG></div><P>We will then have the funds we need to hire the best campaign shops we can to use 100% of these kickstarted funds to win in these 5 districts.</P></div><div
-class="donation-donate"> <a
-href="//pledge.mayone.us/pledge" class="button button-primary">Pledge Now</a></div></div> </section><section
-id="text-7" class="campaign-widget widget_text arrowed"><h3 class="campaign-widget-title">2016</h3><div
-class="textwidget"><div
-class="frontpage_text"><P>Over the past year, we have been calculating what it would cost to win a Congress committed to fundamental reform by 2016. We have a good sense of the range, and of which seats would need to change.</P><P>Our experience in 2014 will give us a better sense. And based on what we learn, we will decide whether this moonshot is feasible.</P><P>If it is, in January 2015, <em>then we will launch the second round of the Mayday PAC</em>, crowdfunding small-dollar contributions to fund a superPAC big enough to win a majority in Congress in 2016 committed to <a href="http://reform.to/#/about">fundamental reform.</A></P><P>Based on what we know now, we believe this <a
-href="http://www.theatlantic.com/politics/archive/2014/04/campaign-finance-and-the-nihilist-politics-of-resignation/360437/">moonshot</a> is possible. Based on what we achieve in 2014, others will believe it as well.</P></div></div> </section><section
-id="text-8" class="campaign-widget widget_text arrowed"><h3 class="campaign-widget-title">MAYDAY.</h3><div
-class="textwidget"><div
-class="frontpage_text" style="font-size:200%; text-align:center; color:#FFFFFF;"><P>Will you answer the call?</P><P>Please pledge if you can.</P><P>Please share this site with everyone you can.</P><P>And please know this:</p><p><STRONG>We still have the power to fix our democracy.</STRONG></P><P>We will, if you help.</P></span></div><div
-class="donation-donate"> <a
-href="//pledge.mayone.us/pledge" class="button button-primary">Pledge Now</a></div></div> </section></div></div></div>
-
-
-
-
-</div><div
-id="login-modal-wrap" class="modal-login modal"><h2 class="modal-title">Sign In</h2><div
-class="atcf-login"><form
-name="loginform" id="loginform" action="wp-login.php" method="post"><p
-class="login-username"> <label
-for="user_login">Username</label> <input
-type="text" name="log" id="user_login" class="input" value="" size="20" /></p><p
-class="login-password"> <label
-for="user_pass">Password</label> <input
-type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></p><p
-class="login-remember"><label><input
-name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label></p><p
-class="login-submit"> <input
-type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Log In" /> <input
-type="hidden" name="redirect_to" value="" /></p><p> <a
-href="/wp-login.php?action=lostpassword">Forgot Password</a> or <a
-href="/sign-up">Register</a></p></form></div></div><div
-id="register-modal-wrap" class="modal-register modal"><h2 class="modal-title">Sign Up</h2><div
-class="atcf-register"><form
-name="registerform" id="registerform" action="" method="post"><p
-class="atcf-register-name"> <label
-for="user_nicename">Your Name</label> <input
-type="text" name="displayname" id="displayname" class="input" value="" /></p><p
-class="atcf-register-email"> <label
-for="user_login">Email Address</label> <input
-type="text" name="user_email" id="user_email" class="input" value="" /></p><p
-class="atcf-register-username"> <label
-for="user_login">Username</label> <input
-type="text" name="user_login" id="user_login" class="input" value="" /></p><p
-class="atcf-register-password"> <label
-for="user_pass">Password</label> <input
-type="password" name="user_pass" id="user_pass" class="input" value="" /></p><p
-class="atcf-register-submit"> <input
-type="submit" name="submit" id="submit" class="button-primary" value="Register" /> <input
-type="hidden" name="action" value="atcf-register-submit" /> <input
-type="hidden" id="_wpnonce" name="_wpnonce" value="cae8a1133c" /><input
-type="hidden" name="_wp_http_referer" value="/" /></p></form></div></div><script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.50.0-2014.02.05'></script> <script type='text/javascript'>/*  */
-var _wpcf7 = {"loaderUrl":"https:\/\/mayone.us\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
-/*  */</script> <script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.8'></script> <script type='text/javascript' src='/wp-includes/js/masonry.min.js?ver=3.1.2'></script> <script type='text/javascript' src='/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2'></script> <script type='text/javascript' src='/wp-content/themes/campaignify/js/jquery.flexslider-min.js?ver=2.1'></script> <script type='text/javascript' src='/wp-content/themes/campaignify/js/jquery.magnific-popup.min.js?ver=2.1.4'></script> <script type='text/javascript' src='/wp-content/themes/campaignify/js/jquery.fittext.js?ver=2.1'></script> <script type='text/javascript'>/*  */
-var campaignifySettings = {"l10n":[],"ajaxurl":"https:\/\/mayone.us\/wp-admin\/admin-ajax.php","page":{"is_campaign":true,"is_single_comments":false,"is_blog":false},"campaignWidgets":{"widget_campaignify_hero_contribute":true,"widget_text":true,"widget_campaignify_campaign_video":true},"security":{"gallery":"6224c2b490"}};
-/*  */</script> <script type='text/javascript' src='/wp-content/themes/campaignify/js/campaignify.js?ver=20130603'></script>
+</div>
+<script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.50.0-2014.02.05'></script> <script type='text/javascript'>/*  */
+  var _wpcf7 = {"loaderUrl":"https:\/\/mayone.us\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
+  /*  */</script>
+<script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.8'></script>
+<script type='text/javascript' src='/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='/wp-content/themes/campaignify/js/jquery.flexslider-min.js?ver=2.1'></script>
+<script type='text/javascript' src='/wp-content/themes/campaignify/js/jquery.magnific-popup.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='/wp-content/themes/campaignify/js/jquery.fittext.js?ver=2.1'></script>
+<script type='text/javascript'>/*  */
+  var campaignifySettings = {"l10n":[],"ajaxurl":"https:\/\/mayone.us\/wp-admin\/admin-ajax.php","page":{"is_campaign":true,"is_single_comments":false,"is_blog":false},"campaignWidgets":{"widget_campaignify_hero_contribute":true,"widget_text":true,"widget_campaignify_campaign_video":true},"security":{"gallery":"6224c2b490"}};
+  /*  */</script>
+<script type='text/javascript' src='/wp-content/themes/campaignify/js/campaignify.js?ver=20130603'></script>
 <script type="text/javascript">
-setInterval(function(){jQuery.ajax('https://pledge.mayone.us/total?callback=totalRaisedCB', {dataType:'script'});}, 30000);
+  setInterval(function(){jQuery.ajax('https://pledge.mayone.us/total?callback=totalRaisedCB', {dataType:'script'});}, 60000);
 </script>

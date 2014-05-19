@@ -178,6 +178,9 @@ In order to keep the site responding quickly, we update the home page bar only
 once every few minutes. Don't worry – your pledge was recorded in our system,
 and will count towards the total.
 
+## If I pledge in May, but after the $1M goal has been met, and the June goal is not met, does MayDay get my money?
+Any amount pledged in May over 1M will become part of the 5M June goal, and will be collected only if that goal is met and matched.  If you want your contribution to be collected right away, you can use the direct donation option on our "<a title="Pledge Page" href="//pledge.mayone.us/pledge">Pledge Page</a>
+
 ## Are you sure you mean "founders" and not "flounders?"
 
 "Founders" in the nautical sense, as in a ship that is "foundering" on the

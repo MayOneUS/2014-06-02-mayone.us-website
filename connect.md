@@ -9,5 +9,6 @@ title: Connect
 * Chat with us on <a href="//webchat.freenode.net?channels=%23mayone&uio=d4" target="_blank">freenode IRC channel #mayone</a>
 * [Share your involvement](../more-ways-to-help/#share)
 * [Volunteer to help!](../more-ways-to-help/#volunteer_form)
-* If you have a technical bent, you can look at our [volunteer wiki](//github.com/MayOneUS/wiki/wiki)
+* We have a [volunteer wiki](//github.com/MayOneUS/wiki/wiki)
+* If you have a technical bent, you can look at our [developer wiki page](//github.com/MayOneUS/wiki/wiki/Developer-Information)
 * [Email us](../contact)

@@ -91,9 +91,9 @@ that influence out, to include the widest number of citizens as the effective
 funders of campaigns.
 
 There are a range of proposals that would do this --- some better than others, but
-all which would achieve fundamental reform. We have listed five specific
-proposals at [reform.to](http://reform.to), and that list may
-evolve.
+all which would achieve fundamental reform.  Lawrence Lessig's campaign finance 
+reform group Rootstrikers has listed five specific proposals at 
+[reform.to](http://reform.to/#/reforms), and that list may evolve.
 
 But as a first step, any candidate for Congress who has pledged to co-sponsor
 one of these reforms will be safe from the Mayday PAC. At this point, we will

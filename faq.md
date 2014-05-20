@@ -92,7 +92,7 @@ funders of campaigns.
 
 There are a range of proposals that would do this --- some better than others, but
 all which would achieve fundamental reform. We have listed five specific
-proposals at <a href="http://reform.to/">reform.to</a>, and that list may
+proposals at [reform.to](http://reform.to), and that list may
 evolve.
 
 But as a first step, any candidate for Congress who has pledged to co-sponsor
@@ -188,5 +188,4 @@ rocks, and hence might call "MAYDAY."
 
 ## What if my question isn't answered here?
 
-<a title="Contact" href="/contact">You can ask us through our Contact Page. Feel
-free to send us your feedback</a>.
+You can ask us through our [Contact Page](/contact). Please send us your feedback.

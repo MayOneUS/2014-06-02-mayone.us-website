@@ -55,7 +55,7 @@ var twitter_link_url = (
     days_left_message.replace(" ", "+") +
     "+to+support+MayOne.us%3A+Mayday+for+the+Republic+https%3A%2F%2Fmayone.us%2F");
 var gplus_link_url = (
-  "https://plus.google.com/share?url=&content=Only+" +
+  "https://plus.google.com/share?url=https://mayone.us&content=Only+" +
     days_left_message.replace(" ", "+") +
     "+to+support+MayOne.us%3A+Mayday+for+the+Republic+https%3A%2F%2Fmayone.us%2F");
 

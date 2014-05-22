@@ -14,4 +14,4 @@ function update_it {
     git subtree pull --prefix $PREFIX $REMOTE_NAME $REMOTE_BRANCH --squash
 }
 
-update_it extern/common extern-common https://github.com/MayOneUS/common.git master
+update_it _includes/common extern-frontend https://github.com/MayOneUS/common-frontend.git master

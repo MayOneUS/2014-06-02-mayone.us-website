@@ -8,4 +8,4 @@ url: "http://mayone.us"
 markdown: kramdown
 permalink: pretty
 
-exclude: ["extern", "update-extern.sh"]
+exclude: ["update-extern.sh"]

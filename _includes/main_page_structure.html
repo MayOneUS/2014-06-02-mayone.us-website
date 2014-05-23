@@ -131,7 +131,7 @@
           </div>
         </section>
 
-        <section id="text-8" class="campaign-widget widget_text arrowed">
+        <section id="text-8" class="campaign-widget widget_text">
           <h3 class="campaign-widget-title">MAYDAY.</h3>
           <div class="textwidget">
             <div class="frontpage_text"
@@ -141,6 +141,10 @@
             {% include pledge_button.html %}
           </div>
         </section>
+          <div class="footnote row-fluid">
+          <a name="meaning_of_founders"></a>
+                {{footnote_text | markdownify}}
+           </div>
         </div>
         </div>
       </div>

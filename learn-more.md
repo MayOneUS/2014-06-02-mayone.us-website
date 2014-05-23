@@ -28,6 +28,16 @@ title: Learn More
 {:.center}
 # MayOne.us in the media
 
+###[The Super PAC To End All Super PACs Gets Off To A Super Start](http://www.huffingtonpost.com/2014/05/15/mayone-lawrence-lessig_n_5333020.html)
+
+> WASHINGTON -- On May 1, Harvard professor Lawrence Lessig launched what he calls 
+  a "super PAC to end all super PACs."  Lessig, one of a new breed of campaign 
+  finance reformers, wants to change the corrupted system by which politicians 
+  now raise money for their campaigns.
+
+> The irony is to get money out of politics, reformers must raise money of their own. 
+  On that measure, Lessig's new     organization has gotten off to a super start.
+
 ### [Washington Post Opinions: Matt Miller: “A ‘money bomb’ for 2016″](http://www.washingtonpost.com/opinions/matt-miller-a-money-bomb-for-2016/2013/05/29/c01d0e88-c85c-11e2-8da7-d274bc611a47_story.html)
 
 

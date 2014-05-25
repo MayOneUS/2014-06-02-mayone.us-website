@@ -28,7 +28,12 @@ title: Learn More
 {:.center}
 # MayOne.us in the media
 
-###[The Super PAC To End All Super PACs Gets Off To A Super Start](http://www.huffingtonpost.com/2014/05/15/mayone-lawrence-lessig_n_5333020.html)
+###[LA Times: Harvard professor's 'super PAC' aims to end power of 'super PACs'](http://www.latimes.com/nation/politics/politicsnow/la-pn-harvard-professor-super-pac-big-money-politics-20140523-story.html)
+>  Is it possible to create a "super PAC" that would end the power of super PACs by drawing enough Americans into the system to limit the influence of big money in politics? And is it possible to get voters excited about a subject as dry as campaign finance?  Harvard law professor Lawrence Lessig is leading a crusade to answer both those questions with a yes.
+
+>  If the Mayday PAC is able to take out five members of Congress this cycle “who are on the wrong side of this issue,” Lessig said, “then when 2016 comes around, magically a whole bunch of members of Congress would be on the right side of this issue, and we would have a narrower range of people that we would have to be going after, and we would have very good data
+
+###[The Huffington Post: The Super PAC To End All Super PACs Gets Off To A Super Start](http://www.huffingtonpost.com/2014/05/15/mayone-lawrence-lessig_n_5333020.html)
 
 > WASHINGTON -- On May 1, Harvard professor Lawrence Lessig launched what he calls 
   a "super PAC to end all super PACs."  Lessig, one of a new breed of campaign 

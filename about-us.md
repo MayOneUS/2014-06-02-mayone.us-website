@@ -151,7 +151,7 @@ of politics since 2011.
 
 Szelena Gray has spent the last few years in the vanguard of the campaign
 finance reform movement with projects like Rootstrikers, The New Hampshire
-Rebellion, and now MayOne.US. Grey received her MTS from Harvard Divinity School
+Rebellion, and now MayOne.US. Gray received her MTS from Harvard Divinity School
 in 2009 and completed her BA in religious and women's studies at the University
 of Florida.
 

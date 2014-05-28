@@ -145,7 +145,7 @@ Aaron Lifshin is the CEO of inMoment Software, makers of
 [Whysaurus](https://www.whysaurus.com/). He has been working to get money out
 of politics since 2011.
 
-## Szelena Gray - Advisor
+## Szelena Gray - COO
 
 <img class="alignleft size-thumbnail wp-image-10183" src="https://mayone.us/wp-content/uploads/2014/05/sgray.jpg" alt="Szelena Gray" width="150" height="150">
 

@@ -121,7 +121,7 @@ evolve, so check back often. If you have something, email us at
 * Iconic images of America — for the opening screen, compelling, color images
 of America, freely licensed ideally.
 
-* Haunting images of America — for the opening screen, images the evoke a sense
+* Haunting images of America — for the opening screen, images that evoke a sense
 of what America needs.
 
 * Technical support — we’ve had incredible volunteer support, and need
